@@ -8,4 +8,6 @@ def index(request):
     return render(request,'rango/index.html',context=context_dict)
 
 def about(request):
-    return HttpResponse('This is about Page....')
+    context_dict={'boldmessage':"This is about page...."}
+    #return HttpResponse('This is about Page....')
+    return render(request,'rango/about.html',context=context_dict)
