@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #print(BASE_DIR)
 STATIC_DIR=os.path.join(BASE_DIR,'static')
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
-print(MEDIA_DIR)
+#print(MEDIA_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -125,8 +125,8 @@ STATIC_URL = 'static/'
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = 'media/'
-print(MEDIA_URL)
-print(MEDIA_ROOT)
+#print(MEDIA_URL)
+#print(MEDIA_ROOT)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
